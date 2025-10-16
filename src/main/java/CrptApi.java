@@ -141,18 +141,18 @@ public class CrptApi {
 
     public static class Document {
         public Description description;
-        public String doc_id;
-        public String doc_status;
-        public String doc_type;
+        public String docId;
+        public String docStatus;
+        public String docType;
         public boolean importRequest;
-        public String owner_inn;
-        public String participant_inn;
-        public String producer_inn;
-        public String production_date;
-        public String production_type;
+        public String ownerInn;
+        public String participantInn;
+        public String producerInn;
+        public String productionDate;
+        public String productionType;
         public List<Product> products;
-        public String reg_date;
-        public String reg_number;
+        public String regDate;
+        public String regNumber;
     }
 
     public static class Description {
@@ -160,14 +160,14 @@ public class CrptApi {
     }
 
     public static class Product {
-        public String certificate_document;
-        public String certificate_document_date;
-        public String certificate_document_number;
-        public String owner_inn;
-        public String producer_inn;
-        public String production_date;
-        public String tnved_code;
-        public String uit_code;
-        public String uitu_code;
+        public String certificateDocument;
+        public String certificateDocumentDate;
+        public String certificateDocumentNumber;
+        public String ownerInn;
+        public String producerInn;
+        public String productionDate;
+        public String tnvedCode;
+        public String uitCode;
+        public String uituCode;
     }
 }
